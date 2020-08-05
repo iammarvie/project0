@@ -1,0 +1,91 @@
+* {
+  margin: 25px, 25px, 25px, 25px; }
+
+.img-prof {
+  width: 300px;
+  float: left;
+  margin: 20px; }
+
+body {
+  background-size: 100% 100%;
+  background-opacity: .5;
+  background-color: #cccccc;
+  background-attachment: fixed;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  size: 100% 100%;
+  height: 100% 100%;
+  position: relative; }
+  body font {
+    family: arial;
+    size: 16px; }
+  body div h3 {
+    color: #4A0167;
+    font-size: 32px;
+    font-family: arial;
+    font-weight: bold; }
+    body div h3 p {
+      color: #4A0167;
+      font-size: 16px;
+      font-family: sans-serif;
+      font-weight: normal; }
+  body div nav {
+    height: 100%; }
+  body div .nav-links li {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+    background-color: #cccccc;
+    flex-direction: row; }
+    body div .nav-links li a {
+      margin-left: auto;
+      background: clear;
+      text-decoration: none;
+      color: black;
+      position: relative; }
+  body #hamnav {
+    width: 100%;
+    background: black;
+    position: relative;
+    top: 0; }
+    body #hamnav label #hamburger {
+      display: none; }
+  body #hamitems {
+    display: inline-grid;
+    margin: 5px;
+    justify-content: space-around;
+    align-items: center; }
+    body #hamitems a {
+      width: auto;
+      height: auto;
+      padding: 1px;
+      color: white;
+      text-decoration: none; }
+      body #hamitems a a:hover {
+        background: black; }
+  @media screen and (max-width: 768px) {
+    body #hamnav input:checked ~ #hamitems {
+      display: block; }
+    body #hamnav label {
+      display: inline-block;
+      color: white;
+      background: black;
+      font-style: normal;
+      font-size: 1.2em;
+      padding: 10px; }
+    body #hamitems {
+      display: none; }
+      body #hamitems a {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border-top: 1px solid #333; }
+    body nav .nav-link li a {
+      position: relative;
+      background: #7a7a7a;
+      height: 100%;
+      width: 100px;
+      flex-direction: row; } }
+
+/*# sourceMappingURL=mystyle1.css.map */

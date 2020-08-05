@@ -1,0 +1,140 @@
+$greyish: #cccccc;
+$h3font: arial;
+$pfont: sans-serif;
+$h3color: #4A0167;
+$nav-color: #7a7a7a;
+*{
+  margin: 25px, 25px, 25px, 25px;
+}
+
+.img-prof{
+    width: 300px;
+    float: left;
+    margin: 20px;
+
+}
+body {
+  background:{
+    size: 100% 100%;
+    opacity: .5;
+    color: $greyish;
+    attachment: fixed;
+    position: fixed ;
+    repeat: no-repeat;
+  }
+
+  size: 100% 100%;
+  height: 100% 100%;
+  position: relative;
+
+
+font{
+  family: $h3font;
+  size: 16px;
+}
+
+div{
+  h3{
+    color: $h3color;
+    font:{
+      size: 32px;
+      family: $h3font;
+      weight: bold;
+    }
+    p{
+      color: $h3color;
+      font:{
+        size: 16px;
+        family: $pfont;
+        weight:normal;
+      }
+    }
+  }
+
+nav{
+  height: 100%;
+}
+.nav-links{
+  li{
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+    background-color: $greyish;
+    flex-direction: row;
+    a{
+      margin-left: auto;
+      background: clear;
+      text-decoration: none;
+      color: black;
+      position: relative;
+    }
+  }
+}
+}
+
+#hamnav{
+  width: 100%;
+  background: black;
+  position: relative;
+  top: 0;
+  label{
+    #hamburger {display: none;}
+  }
+}
+#hamitems{
+  display: inline-grid;
+  margin: 5px;
+  justify-content:space-around;
+  align-items: center;
+  a{
+    width: auto;
+    height: auto;
+    padding: 1px;
+    color: white;
+    text-decoration: none;
+
+  a:hover{background: black;}
+  }
+}
+
+@media screen and (max-width: 768px){
+
+#hamnav {
+  input:checked ~ #hamitems {display: block;}
+  label{
+    display: inline-block;
+    color: white;
+    background: black;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+
+
+}
+#hamitems{
+display: none;
+  a{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
+  }
+
+}
+nav{
+
+  .nav-link{
+    li{
+      a{
+    position: relative;
+    background: $nav-color;
+    height: 100%;
+    width: 100px;
+    flex-direction: row;
+  }}}}}
+
+
+}
