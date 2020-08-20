@@ -3,20 +3,31 @@
   <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/mystyle1.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <title>My Webpage</title>
   </head>
 <style>
 
-#page_header{
-  color: white;
-  padding: 40px;
-  text-align: center;
+  .back{
+    background-size: 99% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
+h3{
+  color: #fff;
+  background:black;
+  font-size: 32px;
+  font-family: arial;
+  font-weight: bold;
+}
 </style>
 
-  <div>
-  <body>
+  <body class = "back">
+
     <nav id="hamnav">
           <!-- [THE HAMBURGER] -->
           <label for="hamburger">&#9776;</label>
@@ -26,10 +37,47 @@
           <div id="hamitems">
             <a href="index.html">Home</a>
             <a href="about.html">About me</a>
-            <a href="highlights.html">Highlights</a>
+            
           </div>
         </nav>
-<h2 id="page_header"> ATHLETIC INFORMATION: </h2>
+
+<h2 class ="page_header"> ATHLETIC INFORMATION: </h2>
+
+<div class ="h3box" class="dropdown">
+
+ <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+   <a class="dropdown-item" href="soccerathletic.html">STATS</a>
+ </div>
+ <p> My athletic career began my sophomore year of High School. My first sport
+   was soccer which was and is primary sport and then I played tennis in the spring.</p>
+   <h3> SOCCER:</h3>
+   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: purple">
+    SOCCER STATS
+   </button>
+   <ul class  = "h3box" >
+   <ul > -> I have been playing soccer since I was a kid mostly just for fun.</ul>
+   <ul > -> I started playing soccer in the USA my tenth grade year in high school and have only played two seasons since then.</ul>
+   <ul> -> My primary position on the team is Goalkeeper:
+       <ol> **My dream had always been to play as a goalkeeper. It mainly started because I was practically the talleast athletically
+         skilled person in my class and no one else was willing to play. Soon I began to develop and it kinda stuck to me.</ol>
+       <ol> **The only difference with playing High school in Nigeria and the USA is the level of skill and development. Here, its more
+         technical and organised. At first playing was a challenge because it was new envoronment and I had  to chage my mindset about the game as a whole.</ol></ul></ul>
+<div class = "h3box">
+   <h2 class = "h2e"> My Development over the years:</h2>
+   <ul>
+       <li>I sarted playing junior varsity with pretty much zero experience. Soon, I was bumoed the varsity for the beginning
+         of my first season. I barely played games but it helped me learn too.</li>
+       <li> Soon, I joined a community club and we wnet and won the competition giving me my first trophy and medal</li>
+       <li> I continued with their futsal team winning the County's futsal competition my first time playing barely missing out on the best goalkeeper award</li>
+       <li> A couple months later I joined an upcoming academy that allowed me to develop some core values as a goalkeeper</li>
+       <li> In the summer of the same year, I trained with the DC United Academy's Goalkeeper Coach</li>
+       <li> My learning there over a couple weeks helped me gain a first team starter position</li>
+       <li> I have since trained with different Academy players and even tried out for the DC United Academy</li></ul>
+     </div>
+
+</div>
+
+</div>
 
   </body>
 </html>
