@@ -18,20 +18,20 @@ $nav-color: #7a7a7a;
 
 
 .extendableheader{
-  font:{
+  font{
     size: 32px;
     weight: bold;
   }
 }
 
 body {
-  background:{
+  background{
     size: 100% 100%;
     opacity: .5;
     color: $greyish;
-    attachment: fixed;
+    appearance: fixed;
     position: fixed ;
-    repeat: no-repeat;
+    appearance: no-repeat;
   }
 
 
@@ -69,21 +69,21 @@ body {
   line-height: 40px;
 
 
-  font:{
+  font{
     family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     size: 24px;
     variant: normal;
     weight:700;
     style: normal;
   }
-  background:{
+  background{
     color: #AC88C2;
   }
 }
 
   h3{
     color: $h3color;
-    font:{
+    font{
       size: 32px;
       family: $h3font;
       weight: bold;
@@ -144,7 +144,7 @@ nav{
 
 
 .page_header{
-  background:{
+  background{
     color:#AC88C2;
   }
 
@@ -172,7 +172,7 @@ nav{
 }
 
 #page_header{
-    background:{
+    background{
     color: #AC88C2;
     }
 
